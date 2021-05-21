@@ -22,13 +22,13 @@ for domain in $(cat $1); do
 # Finished Subdomain Enumeration 
 
 # Performing Subdomain Bruteforcing
-    echo '-----------------------------------------------------'
-    echo "${red} Performing : ${green} Subdomain Bruteforcing ${reset}"
-    echo '-----------------------------------------------------'
-    $dir/subbruter.sh $domain;
-    echo '-----------------------------------------------------'
-    echo "${red} Finished : ${green} Results are saved in ${results} folder ${reset}"
-    echo '-----------------------------------------------------'
+   # echo '-----------------------------------------------------'
+    #echo "${red} Performing : ${green} Subdomain Bruteforcing ${reset}"
+    #echo '-----------------------------------------------------'
+    #$dir/subbruter.sh $domain;
+    #echo '-----------------------------------------------------'
+    #echo "${red} Finished : ${green} Results are saved in ${results} folder ${reset}"
+    #echo '-----------------------------------------------------'
 # Finished Subdomain Bruteforcing
 
 # Performing Subdomain Takeover
@@ -92,13 +92,13 @@ for domain in $(cat $1); do
 # Finished Vulnerable Pattern Search
 
 # Performing Javascript Scan
-    echo '-----------------------------------------------------'
-    echo "${red} Performing : ${green} Javascript Scan ${reset}"
-    echo '-----------------------------------------------------'
-    $dir/jscan.sh $domain;
-    echo '-----------------------------------------------------'
-    echo "${red} Finished : ${green} Results are saved in ${results} folder ${reset}"
-    echo '-----------------------------------------------------'
+    #echo '-----------------------------------------------------'
+    #echo "${red} Performing : ${green} Javascript Scan ${reset}"
+    #echo '-----------------------------------------------------'
+    #$dir/jscan.sh $domain;
+    #echo '-----------------------------------------------------'
+    #echo "${red} Finished : ${green} Results are saved in ${results} folder ${reset}"
+    #echo '-----------------------------------------------------'
 # Finished Javascript Scan
 
 # Performing Secret Finder
