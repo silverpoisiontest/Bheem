@@ -72,23 +72,23 @@ for domain in $(cat $1); do
 # Finished Parameter Discovery
 
 # Performing XSS Automation
-    echo '-----------------------------------------------------'
-    echo "${red} Performing : ${green} XSS Automation ${reset}"
-    echo '-----------------------------------------------------'
-    $dir/autoxss.sh $domain;
-    echo '-----------------------------------------------------'
-    echo "${red} Finished : ${green} Results are saved in ${results} folder ${reset}"
-    echo '-----------------------------------------------------'
+    #echo '-----------------------------------------------------'
+    #echo "${red} Performing : ${green} XSS Automation ${reset}"
+    #echo '-----------------------------------------------------'
+    #$dir/autoxss.sh $domain;
+    #echo '-----------------------------------------------------'
+    #echo "${red} Finished : ${green} Results are saved in ${results} folder ${reset}"
+    #echo '-----------------------------------------------------'
 # Finished XSS Automation
 
 # Performing Javascript Scan
-    echo '-----------------------------------------------------'
-    echo "${red} Performing : ${green} Javascript Scan ${reset}"
-    echo '-----------------------------------------------------'
-    $dir/jscan.sh $domain;
-    echo '-----------------------------------------------------'
-    echo "${red} Finished : ${green} Results are saved in ${results} folder ${reset}"
-    echo '-----------------------------------------------------'
+    #echo '-----------------------------------------------------'
+    #echo "${red} Performing : ${green} Javascript Scan ${reset}"
+    #echo '-----------------------------------------------------'
+    #$dir/jscan.sh $domain;
+    #echo '-----------------------------------------------------'
+    #echo "${red} Finished : ${green} Results are saved in ${results} folder ${reset}"
+    #echo '-----------------------------------------------------'
 # Finished Javascript Scan
 
 # Performing Secret Finder
