@@ -2,4 +2,4 @@
 
 dir=~/Recon/$1
 
-dalfox -b hahwul.xss.ht file $dir/$1_params > $dir/$1_xss;
+dalfox -b silverpoision.xss.ht file $dir/$1_params > $dir/$1_xss;
