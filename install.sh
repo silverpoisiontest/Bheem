@@ -5,6 +5,7 @@ sudo apt-get install python3-pip;
 sudo apt-get install ruby;
 sudo apt-get install screen;
 sudo apt-get install git;
+sudo apt-get install libpcap-dev;
 mkdir ~/.gf
 mkdir ~/Tools;
 mkdir ~/Recon;
